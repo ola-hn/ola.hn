@@ -1,0 +1,4 @@
+@import "global/global-styles.css";
+@import "global/variables.css";
+@import "blocks/main-wrapper.css";
+@import "compositions/wrapper.css";
