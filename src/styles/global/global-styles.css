@@ -3,7 +3,8 @@
 }
 
 body {
-  padding: 5rem 1rem;
+  padding: 4rem 1rem;
+  font-size: var(--step-0);
 }
 
 h1 {
@@ -30,7 +31,7 @@ ul[role='list'] {
 }
 
 li + li {
-  margin-block-start: var(--space-xs);
+  margin-block-start: var(--space-2xs);
 }
 
 p {
