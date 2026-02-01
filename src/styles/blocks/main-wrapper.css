@@ -1,4 +1,10 @@
 .main-wrapper {
     --wrapper-max-width: 400px;
     text-align: center;
+    --cluster-horizontal-alignment: center;
+    --gutter: var(--space-xl);
+}
+
+.main-wrapper h2 {
+    --flow-space: var(--space-xs);
 }
