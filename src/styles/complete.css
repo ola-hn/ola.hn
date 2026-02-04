@@ -3,7 +3,6 @@
 @import "global/variables.css";
 @import "blocks/bar-list.css";
 @import "blocks/main-wrapper.css";
-@import "blocks/prose.css";
 @import "compositions/cluster.css";
 @import "compositions/flow.css";
 @import "compositions/wrapper.css";

@@ -4,7 +4,3 @@
     --cluster-horizontal-alignment: center;
     --gutter: var(--space-xl);
 }
-
-.main-wrapper h2 {
-    --flow-space: var(--space-xs);
-}
