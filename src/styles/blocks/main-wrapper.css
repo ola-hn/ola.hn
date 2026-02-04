@@ -1,0 +1,6 @@
+.main-wrapper {
+    --wrapper-max-width: 400px;
+    text-align: center;
+    --cluster-horizontal-alignment: center;
+    --gutter: var(--space-xl);
+}
