@@ -1,0 +1,3 @@
+.stack-medium > * {
+    --flow-space: var(--space-xs);
+}

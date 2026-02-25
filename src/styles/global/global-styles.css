@@ -5,15 +5,17 @@
 body {
   padding: 4rem 1rem;
   font-size: var(--step-0);
+  font-weight: 500;
 }
 
 h1 {
-  font-size: var(--step-4);
-  max-width: 20ch;
+  font-size: var(--step-7);
+  font-weight: bold;
 }
 
 h2 {
   font-size: var(--step-3);
+  font-weight: 600;
   max-width: 35ch;
 }
 
@@ -35,5 +37,5 @@ li + li {
 }
 
 p {
-    max-width: 27ch;
+    max-width: 60ch;
 }

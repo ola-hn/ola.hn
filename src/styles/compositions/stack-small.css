@@ -1,0 +1,3 @@
+.stack-small > * {
+    --flow-space: var(--space-2xs);
+}
