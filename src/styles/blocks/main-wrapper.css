@@ -2,7 +2,7 @@
     --wrapper-max-width: 500px;
     text-align: center;
     --gutter: var(--space-xl);
-    --flow-space: var(--space-l)
+    --flow-space: var(--space-xl)
 }
 
 .main-wrapper p {
