@@ -1,6 +1,14 @@
 .main-wrapper {
-    --wrapper-max-width: 400px;
+    --wrapper-max-width: 500px;
     text-align: center;
-    --cluster-horizontal-alignment: center;
     --gutter: var(--space-xl);
+    --flow-space: var(--space-l)
+}
+
+.main-wrapper p {
+    max-width: 27ch;
+}
+
+.main-wrapper * {
+    margin-inline: auto;
 }
