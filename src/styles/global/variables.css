@@ -41,3 +41,11 @@
   /* Custom pairs */
   --space-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
 }
+
+/*  Colors */
+:root {
+  --color-primary: #6F00FF;
+  --color-dark: #3B0270;
+  --color-mid: #E9B3FB;
+  --color-light: #FFF1F1;
+}
