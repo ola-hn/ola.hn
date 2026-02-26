@@ -8,7 +8,7 @@ ul::before {
     content: '';
     width: var(--space-3xs);
     height: 100%;
-    background-color: lightgray;
+    background-color: var(--color-primary-lighter);
     position: absolute;
     left: 0;
     top: 0;

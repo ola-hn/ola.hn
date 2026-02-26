@@ -45,6 +45,7 @@
 /*  Colors */
 :root {
   --color-primary: #6F00FF;
+  --color-primary-lighter: #babfff;
   --color-dark: #3B0270;
   --color-mid: #E9B3FB;
   --color-light: #FFF1F1;
