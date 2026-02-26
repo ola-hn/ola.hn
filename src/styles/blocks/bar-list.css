@@ -6,7 +6,6 @@ ul {
 
 ul::before {
     content: '';
-    display: block;
     width: var(--space-3xs);
     height: 100%;
     background-color: lightgray;

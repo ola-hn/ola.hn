@@ -1,8 +1,8 @@
 .main-wrapper {
-    --wrapper-max-width: 500px;
+    --wrapper-max-width: 750px;
     text-align: center;
     --gutter: var(--space-xl);
-    --flow-space: var(--space-xl)
+    --flow-space: var(--space-3xl);
 }
 
 .main-wrapper p {
@@ -11,4 +11,12 @@
 
 .main-wrapper * {
     margin-inline: auto;
+}
+
+:is(h1, h2, h3, h4, h5, h6) + * {
+    display: block;
+}
+
+.main-wrapper {
+    font-size: var(--step-1);
 }
