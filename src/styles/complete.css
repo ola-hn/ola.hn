@@ -2,8 +2,8 @@
 @import "global/global-styles.css";
 @import "global/variables.css";
 @import "compositions/flow.css";
+@import "compositions/platform-link.css";
 @import "compositions/stack-medium.css";
-@import "compositions/stack-small.css";
 @import "compositions/wrapper.css";
 @import "blocks/bar-list.css";
 @import "blocks/main-wrapper.css";

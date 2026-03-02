@@ -3,6 +3,7 @@ import "../styles/complete.css";
 import Layout from "../layouts/Layout.astro";
 import LocationIcon from "../assets/location.svg";
 import BrandName from "../assets/brand-name.svg";
+import LinkedInIcon from "../assets/linkedin.svg";
 ---
 
 <Layout>
@@ -30,11 +31,16 @@ import BrandName from "../assets/brand-name.svg";
 		</section>
 		<section class="flow stack-medium">
 			<h2>Find me on</h2>
-			<a href="#">LinkedIn</a>
+			<div class="platform-link">
+				<LinkedInIcon class="platform-icon-svg" role="img" aria-label="LinkedIn" />
+				<a href="https://www.linkedin.com/in/ola-hn" target="_blank">
+					LinkedIn
+				</a>
+			</div>
 		</section>
 		<section class="flow stack-medium">
 			<h2>Email me at</h2>
-			<a href="#">hi@ola.hn</a>
+			<a href="mailto:hi@ola.hn">hi@ola.hn</a>
 		</section>
 	</div>
 </Layout>
@@ -48,6 +54,11 @@ import BrandName from "../assets/brand-name.svg";
 	.location-icon-svg {
 		height: 6em;
 		width: 6em;
+		fill: var(--color-primary);
+	}
+
+	.platform-icon-svg {
+		width: 2em;
 		fill: var(--color-primary);
 	}
 </style>

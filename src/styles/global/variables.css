@@ -40,12 +40,14 @@
 
   /* Custom pairs */
   --space-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
+  --space-s-xl: clamp(1.125rem, 0.0511rem + 4.7727vw, 3.75rem);
+  --space-xs-xl: clamp(0.875rem, -0.3011rem + 5.2273vw, 3.75rem);
+  --space-2xs-xl: clamp(0.5625rem, -0.7415rem + 5.7955vw, 3.75rem);
 }
 
 /*  Colors */
 :root {
   --color-primary: #6F00FF;
-  --color-primary-lighter: #BABFFF;
   --color-dark: #3B0270;
   --color-mid: #E9B3FB;
   --color-light: #FFF1F1;
