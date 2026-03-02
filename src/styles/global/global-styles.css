@@ -1,7 +1,6 @@
 * {
   font-family: 'Raleway', sans-serif;
   color: var(--color-dark);
-  background-color: var(--color-light);
   text-underline-offset: 20%;
 }
 
@@ -9,6 +8,7 @@ body {
   padding: 6rem 1rem;
   font-size: var(--step-0);
   font-weight: 500;
+  background-color: var(--color-light);
 }
 
 h1 {
