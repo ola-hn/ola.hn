@@ -4,10 +4,11 @@ import Layout from "../layouts/Layout.astro";
 import LocationIcon from "../assets/location.svg";
 import BrandName from "../assets/brand-name.svg";
 import LinkedInIcon from "../assets/linkedin.svg";
+import Button from "../components/Button.astro";
 ---
 
 <Layout>
-	<div class="wrapper main-wrapper flow">
+	<div class="wrapper blobs flow main-wrapper">
 		<section class="flow">
 			<h1>
 				Hi! I'm
@@ -40,7 +41,12 @@ import LinkedInIcon from "../assets/linkedin.svg";
 		</section>
 		<section class="flow stack-medium">
 			<h2>Email me at</h2>
-			<a href="mailto:hi@ola.hn">hi@ola.hn</a>
+			<altcha-widget
+				obfuscated="VxgcTO+Lc1mi9gpqumkYnYeZEsF4p1pNisD6MtJLcU0="
+				floating="auto"
+			>
+				<Button title="Click to reveal" />
+			</altcha-widget>
 		</section>
 	</div>
 </Layout>
@@ -62,3 +68,8 @@ import LinkedInIcon from "../assets/linkedin.svg";
 		fill: var(--color-primary);
 	}
 </style>
+
+<script>
+	import '@altcha/plugins/obfuscation';
+	import 'altcha';
+</script>

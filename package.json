@@ -9,7 +9,9 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@altcha/plugins": "^1.0.0",
     "@fontsource/raleway": "^5.2.8",
+    "altcha": "2.3.0",
     "astro": "^5.16.15"
   }
 }

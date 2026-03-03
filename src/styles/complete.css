@@ -1,11 +1,13 @@
 @import "global/reset.css";
 @import "global/global-styles.css";
 @import "global/variables.css";
+@import "compositions/blobs.css";
 @import "compositions/flow.css";
 @import "compositions/platform-link.css";
 @import "compositions/stack-medium.css";
 @import "compositions/wrapper.css";
 @import "blocks/bar-list.css";
+@import "blocks/button.css";
 @import "blocks/main-wrapper.css";
 @import "utilities/font-semibold.css";
 @import "utilities/text-step-2.css";

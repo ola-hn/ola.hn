@@ -1,0 +1,19 @@
+.blobs::before {
+    content: '';
+    width: 35%;
+    height: 85%;
+    border-radius: 36% 64% 82% 18% / 79% 29% 71% 21%;
+    background-color: var(--blob-color, #FF8603);
+    opacity: var(--blob-opacity, 15%);
+    position: var(--blob-position, absolute);
+}
+
+.blobs::after {
+    content: '';
+    width: 35%;
+    height: 85%;
+    border-radius: 71% 29% 18% 82% / 22% 80% 20% 78%;
+    background-color: var(--blob-color, #FF0346);
+    opacity: var(--blob-opacity, 15%);
+    position: var(--blob-position, absolute);
+}
