@@ -22,18 +22,29 @@
 }
 
 .main-wrapper::before {
+    content: '';
+    width: 35%;
+    height: 85%;
+    border-radius: 36% 64% 82% 18% / 79% 29% 71% 21%;
+    background-color: #FF8603;
+    opacity: 15%;
+    position: fixed;
     top: -20%;
     left: -5%;
-    --blob-position: fixed;
     z-index: 1;
     pointer-events: none;
 }
 
 .main-wrapper::after {
+    content: '';
+    width: 35%;
+    height: 85%;
+    border-radius: 71% 29% 18% 82% / 22% 80% 20% 78%;
+    background-color: #FF0346;
+    opacity: 10%;
+    position: fixed;
     top: 10%;
     right: -10%;
     z-index: 1;
     pointer-events: none;
-    --blob-opacity: 10%;
-    --blob-position: fixed;
 }
